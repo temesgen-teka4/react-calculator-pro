@@ -1,0 +1,14 @@
+.display-container {
+  margin-bottom: 15px;
+}
+
+.display {
+  width: 100%;
+  padding: 5px;
+  font-size: 24px;
+  text-align: right;
+  background: var(--display-bg);
+  color: var(--display-text);
+  border: none;
+  border-radius: 5px;
+}

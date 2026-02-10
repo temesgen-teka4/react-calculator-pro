@@ -1,0 +1,57 @@
+.calculator {
+  width: 340px;
+  background: var(--bg-color);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.equal {
+  grid-column: 4;
+  grid-row: 4 / 6;
+  background: #0a84ff !important;
+  color: #fff;
+}
+
+.theme-toggle, .mode-toggle {
+  padding: 6px;
+  font-size: 16px;
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.theme-toggle:hover, .mode-toggle:hover {
+  background: var(--button-hover);
+}
+
+.mode-toggle.active {
+  background: #0a84ff;
+  color: #fff;
+}
+
+/* Compact scientific panel */
+.scientific-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-top: 8px;
+  max-height: 100px;   /* ✅ keep compact */
+  overflow-y: auto;    /* ✅ scroll if too many buttons */
+}

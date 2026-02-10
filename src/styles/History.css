@@ -1,0 +1,35 @@
+.history-container {
+  margin-bottom: 15px;
+  max-height: 100px;
+  overflow-y: auto;
+  background: var(--button-bg);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Title */
+.history-container h3 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+/* List items */
+.history-list {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.history-item {
+  margin-bottom: 3px;
+}
+
+/* ✅ Light mode fix */
+.light-theme .history-container {
+  background: #f0f0f0;       /* slightly darker than white */
+  border: 1px solid #ccc;    /* subtle border for visibility */
+}
+
+.light-theme .history-item {
+  color: #222;               /* dark text for contrast */
+}

@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #222;
+  --text-color: #fff;
+  --button-bg: #333;
+  --button-hover: #555;
+  --display-bg: #111;
+  --display-text: #0f0;
+}
+
+.light-theme {
+  --bg-color: #f9f9f9;
+  --text-color: #000;
+  --button-bg: #ddd;
+  --button-hover: #bbb;
+  --display-bg: #fff;
+  --display-text: #333;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
