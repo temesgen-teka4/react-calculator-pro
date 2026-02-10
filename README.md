@@ -9,7 +9,12 @@ A professional calculator app with:
 
 ## Screenshot
 
-![Calculator Screenshot](assets/screenshot.png)
+![Calculator Screenshot](assets/screenshot1.png)
+![Calculator Screenshot](assets/screenshot2.png)
+![Calculator Screenshot](assets/screenshot3.png)
+![Calculator Screenshot](assets/screenshot4.png)
+
+
 
 ## How to Run
 
