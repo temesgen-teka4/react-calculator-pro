@@ -23,7 +23,9 @@ A professional calculator app with:
    git clone https:github.com/temesgen-teka4/react-calculator-pro.git
 
 
-   ## Contributing
+
+
+   ##Contributing
 
 This project is still evolving. One area that needs improvement is the **currency conversion feature** — sometimes the API returns `undefined` or errors.  
 
@@ -33,3 +35,7 @@ If you have ideas or fixes, feel free to:
 - Submit a Pull Request (PR)
 
 Any contributions to improve conversion reliability or add more currencies are welcome!
+
+Welcome pull requests!  
+If you can fix the currency conversion issue or add new features, please open a PR.
+
