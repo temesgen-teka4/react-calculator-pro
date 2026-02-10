@@ -39,3 +39,18 @@ Any contributions to improve conversion reliability or add more currencies are w
 Welcome pull requests!  
 If you can fix the currency conversion issue or add new features, please open a PR.
 
+
+
+
+   ## 🚀 Deployment
+
+This project is deployed on **Netlify**.  
+You can try the live demo here:
+
+👉 [React Calculator Pro Live Demo](https://react-calculator-pro.netlify.app)
+
+### Notes
+- The app automatically redeploys whenever new changes are pushed to the `main` branch.
+- If the currency conversion feature shows errors, contributions are welcome! Please check the [Issues](../../issues) tab or open a Pull Request.
+
+
